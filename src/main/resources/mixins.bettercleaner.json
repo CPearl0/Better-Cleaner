@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.cpearl.bettercleaner.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.bettercleaner.refmap.json",
+  "mixins": [
+    "ServerLevelMixin"
+  ],
+  "client": [],
+  "minVersion": "0.8"
+}
