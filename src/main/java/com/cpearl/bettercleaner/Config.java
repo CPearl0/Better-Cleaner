@@ -20,11 +20,11 @@ public class Config
 
     private static final ForgeConfigSpec.IntValue CLEAN_INTERVAL = BUILDER
             .comment("The interval between two cleanings. Unit: second.")
-            .defineInRange("cleanInterval", 20, 1, Integer.MAX_VALUE);
+            .defineInRange("cleanInterval", 90, 1, Integer.MAX_VALUE);
 
     private static final ForgeConfigSpec.IntValue MAX_AGE = BUILDER
             .comment("The maximum age of item entities. Unit: second.")
-            .defineInRange("maxAge", 45, 1, Integer.MAX_VALUE);
+            .defineInRange("maxAge", 90, 1, Integer.MAX_VALUE);
 
     private static final ForgeConfigSpec.ConfigValue<List<? extends String>> ITEM_STRINGS = BUILDER
             .comment("Test. No use now.")
